@@ -1,0 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/bradley-hand-2');
+
+hr {
+  margin-top: -35px;
+}
+
+.titulo {
+  font-family: 'Bradley Hand', sans-serif;
+  font-size: 45px;
+}
+
+.imagen {
+  margin-bottom: 20px;
+}

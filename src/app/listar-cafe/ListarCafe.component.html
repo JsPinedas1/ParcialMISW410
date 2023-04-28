@@ -1,0 +1,40 @@
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead class="tablaEncabezado">
+        <tr>
+          <th class="h4">#</th>
+          <th class="h4">Nombre</th>
+          <th class="h4">Tipo</th>
+          <th class="h4">Región</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cafe of cafes">
+          <td>
+            <strong>
+              <dd>
+                {{cafe.id}}
+              </dd>
+            </strong>
+          </td>
+          <td>
+            <dd>
+              {{cafe.nombre}}
+            </dd>
+          </td>
+          <td>
+            <dd>
+              {{cafe.tipo}}
+            </dd>
+          </td>
+          <td>
+            <dd>
+              {{cafe.region}}
+            </dd>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
