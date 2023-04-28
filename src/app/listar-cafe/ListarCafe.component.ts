@@ -10,10 +10,11 @@ import { Cafe } from '../cafe/Cafe';
 export class ListarCafeComponent implements OnInit {
 
   @Input() cafes!: Array<Cafe>;
+  @Input() cafeOrigen!: number;
+  @Input() cafesBlend!: number;
 
   constructor() { }
 
   ngOnInit() {
   }
-
 }
